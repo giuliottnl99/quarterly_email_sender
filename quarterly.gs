@@ -45,7 +45,7 @@ function sendEmailNextQuarters() {
 
 function getNextQuarterly(symbol, numRiga){
 
-  var apiKey = 'D70SVLDS71VNUIW9';
+  var apiKey = 'this is my secret key';
   var url = 'https://www.alphavantage.co/query?function=EARNINGS_CALENDAR&symbol=' + symbol + '&apikey=' + apiKey;
 
   var response = UrlFetchApp.fetch(url);
